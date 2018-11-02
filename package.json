@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "nodemon server.ts",
     "build": "next build && tsc --project tsconfig.server.json",
+    "postinstall": "npm run build",
     "start": "NODE_ENV=production node .next/production-server/server.js"
   },
   "keywords": [],
