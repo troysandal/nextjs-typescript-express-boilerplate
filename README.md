@@ -2,14 +2,29 @@
 
 In envaluating [next.js](https://github.com/zeit/next.js) for building apps I wanted a starting point that included an [Express](https://expressjs.com/) server for the API and Typescript as the primary language instead of Javascript.  This project is the boilerplate for that type of app.
 
+You can deploy this app either to [Zeit](https://zeit.co/) via the `now` command or to [Heroku](https://www.heroku.com).
+
 *Features*
 
 * next.js
 * Typescript
 * Express API Server
 * Static file serving
-* TODO : [Mocha Tests](https://mochajs.org/)
-* TODO : Cypress.io Tests
+* Mocha Tests
+
+## Running
+*Dev Server*
+```sh
+npm i
+npm run dev
+```
+
+*Production Server*
+```sh
+npm i
+npm run build
+npm run start
+```
 
 ## Notes
 * We might need to use this [.babelrc](https://github.com/zeit/next.js/blob/canary/examples/custom-server-typescript/.babelrc) though I swear I read it's been fixed and our current
