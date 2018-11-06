@@ -1,6 +1,6 @@
 # Next.js + Typescript + Express Server
 
-In envaluating [next.js](https://github.com/zeit/next.js) for building apps I wanted a starting point that included an [Express](https://expressjs.com/) server for the API and Typescript as the primary language instead of Javascript.  This project is the boilerplate for that type of app.
+While evaluating [next.js](https://github.com/zeit/next.js) for building apps I wanted a starting point that included an [Express](https://expressjs.com/) server for the API and Typescript as the primary language instead of Javascript.  This project is the boilerplate for that app.
 
 You can deploy this app either to [Zeit](https://zeit.co/) via the `now` command or to [Heroku](https://www.heroku.com).
 
